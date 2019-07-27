@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<link rel="stylesheet" type="text/css" href="reset.css">-->
+	<script src="prefixfree.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baumans|Open+Sans&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Learning HTML</h1>
+		<p>A responsive website tutorial</p>
+	</header>
+
+	<nav>
+		<input type="checkbox" id="nav">
+		<label for="nav"></label>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Portfalio</a></li>
+			<li><a href="#">About</a></li>
+		</ul>	
+	</nav>
+
+	<section id="container">
+		<article class="slide-content">
+			<h2>Lorem</h2>
+				<p>	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<a href="javascript:void(0)" class="responsive_button">More..</a></p>
+				<a class="button" href="javascript:void(0)">MORE</a>
+		</article>
+
+		<div id="slider">
+			<figure>
+				<img src="img/image-1.jpg" alt="hinhanh1">
+				<img src="img/image-2.jpg" alt="hinhanh2">
+				<img src="img/image-3.jpg" alt="hinhanh3">
+				<img src="img/image-4.jpg" alt="hinhanh4">
+				<img src="img/image-5.jpg" alt="hinhanh5">
+			</figure>
+		</div>
+	</section>
+
+		<section id="spacer">
+			<p> Lorem Ipsum is simply dummy text of the printing. </p>
+			<div class="search">
+				<form action="#">
+					<input type="text" name="search" value="Enter a word..." />
+					<input type="submit" name="submit" value="Search" />
+				</form>
+			</div>	
+		</section>
+
+		<section id="three-column">
+			<article>
+				<img src="img/icon-1.png" alt="icon-1">
+				<h3> Contact </h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</article>		
+
+			<article>
+				<img src="img/icon-2.png" alt="icon-1">
+				<h3> Mobile Phone </h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</article>		
+		
+			<article>
+				<img src="img/icon-3.png" alt="icon-1">
+				<h3> Location </h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</article>
+				<div class="clr"></div>			
+		</section>
+
+		<section id="four-column">
+			<h2>Lorem inspum</h2>
+				<article class="img-item">
+					<figure>
+						<a href="#img1" title="Some title">
+							<div class="zoom-in"></div>	
+								<img src="img/icon-item-1.jpg" alt="Some content text">
+						</a>		
+									<figcaption>
+										<strong>
+											Photo by: Atme
+										</strong>
+											Lorem Ipsum has been the industry's standard
+									</figcaption>
+						<div class="clr"></div>
+					</figure>
+				</article>
+
+				<article class="img-item">
+					<figure>
+						<a href="#img2" title="Some title">
+							<div class="zoom-in"></div>
+								<img src="img/icon-item-1.jpg" alt="Some content text">
+						</a>		
+									<figcaption>
+										<strong>
+											Photo by: Atme
+										</strong>
+										Lorem Ipsum has been the industry's standard
+									</figcaption>
+					</figure>
+					<div class="clr"></div>
+				</article>
+
+				<article class="img-item">
+					<figure>
+						<a href="#img3" title="Some title">
+							<div class="zoom-in"></div>
+								<img src="img/icon-item-1.jpg" alt="Some content text">
+						</a>
+								<figcaption>
+									<strong>
+										Photo by: Atme
+									</strong>
+										Lorem Ipsum has been the industry's standard
+								</figcaption>
+						</figure>
+				</article>
+
+				<article class="img-item">
+					<figure>
+						<a href="#img4" title="Some title">
+							<div class="zoom-in"></div>
+								<img src="img/icon-item-1.jpg" alt="Some content text">
+						</a>
+							<figcaption>
+								<strong>
+									Photo by: Atme
+								</strong>
+									Lorem Ipsum has been the industry's standard
+							</figcaption>
+					</figure>
+				</article>
+			<div class="clr"></div>
+		</section>
+
+			<section id="lightbox">
+				<a href="#_" class="lightbox" id="img1">
+					<img src="img/picture-img.jpg">
+				</a>
+
+				<a href="#_" class="lightbox" id="img2">
+					<img src="img/picture-img.jpg">
+				</a>
+
+				<a href="#_" class="lightbox" id="img3">
+					<img src="img/picture-img.jpg">
+				</a>
+
+				<a href="#_" class="lightbox" id="img4">
+					<img src="img/picture-img.jpg">
+				</a>
+			</section>
+			
+		<section id="multiple_columns">
+			<section class="columns1">
+				<article>
+					<h3>Lorem Ipsum is simply </h3>
+						<p> When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries </p>
+
+						<p> It was popularised in the sheets containing Lorem Ipsum passages the 1960s with the release of Letraset sheets containing Lorem Ipsum</p>
+				</article>
+			</section>
+
+			<section class="columns2">
+				<article class="row">
+					<img src="img/rocket.png" class="rocket" alt="some text here">
+					<p>	The point of using Lorem Ipsum is that it has a</p>
+				</article>
+
+				<article class="row">
+					<img src="img/clock.png" class="clock" alt=" some text here">
+					<p> The point of using Lorem Ipsum is that it has a more-or-less normal distrig </p>
+				</article>
+			</section>
+			<div class="clr"></div>
+		</section>
+
+		<footer>
+			<section id="extra-content">
+				<article class="column">
+					<h4>Lorem inspum</h4>
+						<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 </p>
+				</article>
+
+				<article class="column second">
+					<h4> Lorem inspum</h4>
+						<ul>
+							<li>
+								<a href="javascript:void(0)">Lorem Ipsum is simply dummy text</a>
+							</li>
+							
+							<li>
+								<a href="javascript:void(0)">Lorem Ipsum is simply dummy text</a>
+							</li>
+
+							<li>
+								<a href="javascript:void(0)">Lorem Ipsum is simply dummy text</a>
+							</li>
+
+							<li>
+								<a href="javascript:void(0)">Lorem Ipsum is simply dummy text</a>
+							</li>	
+						</ul>
+				</article>
+
+				<article class="column three">
+					<h4>Lorem inspum</h4>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/icon-item-1.jpg" alt="text here">
+								<span> Many desktop publishing packages and web page</span>
+							</a>	
+						</li>		
+								
+
+						<li>
+							<a href="#">
+								<img src="img/icon-item-1.jpg" alt="text here">
+								<span> Many desktop publishing packages and web page</span>
+							</a>	
+						</li>		
+								
+						<li>
+							<a href="#">
+								<img src="img/icon-item-1.jpg" alt="text here">
+								<span> Many desktop publishing packages and web page</span>
+							</a>	
+						</li>		
+					</ul>		
+				</article>
+			</section>
+
+			<section id="page_owner_info">
+				<div class="wrapper">
+					<p class="copyright"> &copy; Coppyright 2016 by <a href="#">Example</a> All Rights Reserved.</p>
+					<div class="social">
+						<a href="#">
+							<img src="img/facebook.png" alt="facebook">
+						</a>
+						
+						<a href="#">
+							<img src="img/instagram.png" alt="instagram">
+						</a>
+
+						<a href="#">
+							<img src="img/youtube.png" alt="youtube">
+						</a>
+
+						<a href="#">
+							<img src="img/twitter.png" alt="twitter">
+						</a>
+					</div>
+				</div>			
+				
+			</section>
+		</footer>
+
+</body>
+</html>

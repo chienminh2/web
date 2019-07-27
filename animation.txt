@@ -1,0 +1,16 @@
+animation-name: tên animation; 
+animation-duaration: thời gian chuyển động | 4s ; 0.75 ; 
+animation-timing-funcition: kiểu chuyển động chậm dần hoặc tăng;
+	| linear: chuyển động cùng tốc độ từ lúc bắt đầu đến kết thúc
+	| ease: chuyển động ban đầu sẽ chậm sau đó nhanh và kết thúc từ từ
+	| ease-in: chuyển đầu ban đầu sẽ chậm, sau đó nhanh
+	| ease-out: chuyển động ban đầu sẽ nhanh, sau đó sẽ chậm dần
+	| ease-in-out: chuyển động ban đầu sẽ chậm , sau đó sẽ nhanh , và kết thúc chậm dần.
+
+animation-delay: độ trễ chuyển động có thể; có thể 2s -2s;
+animation-iteration-count: vòng lập chuyển động có thể 1 lần hoặc vô tận
+animation-direction: chuyển động theo hướng trái phải hoặc ngược lại
+	| normal: là giá trị mặt định
+	| reverse: chuyển động từ phải sang trái
+	| alternate: chuyển động từ trái sang phải
+	| alternate-reverse: chuyển động trái sang phải hoặc ngược lại
